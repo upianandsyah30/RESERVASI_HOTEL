@@ -157,7 +157,7 @@ session_start();
 
     <section class="jumbotron text-center">
         <div class="container pt-lg-5 pl-5 px-5">
-            <h1 class="display-3">A brand new hotel beyond ordinary</h1>
+            <h1 class="display-3">SELAMAT DATANG DI HOTEL KAMI</h1>
             <p class="lead text-muted">Book your summer holidays with us now.</p>
             <p>
                 <?php if ($isSessionExists) { ?>
