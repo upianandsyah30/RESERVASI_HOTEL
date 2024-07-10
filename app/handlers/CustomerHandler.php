@@ -83,12 +83,12 @@ class CustomerHandler extends CustomerDAO
         // insert if value is 0, which means this Customer's email still not registered
         if ($this->isCustomerExists($customer->getEmail()) == 0) {
             if ($this->insert($customer)) {
-                $this->setExecutionFeedback("You have successfully registered! You can now login.");
+                $this->setExecutionFeedback("akun berhasil didaftarkan! Kamu bisa login sekarang.");
             } else {
                 $this->setExecutionFeedback(Util::DB_SERVER_ERROR);
             }
         } else {
-            $this->setExecutionFeedback("Email already registered.");
+            $this->setExecutionFeedback("Email telah digunakan.");
         }
     }
 
