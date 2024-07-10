@@ -488,7 +488,7 @@ session_start();
 </main>
 
 <footer class="container">
-    <p>&copy; Company 2017-2018</p>
+    <p>&copy; HOTAL KAMI @2024</p>
 </footer>
 <script src="js/utilityFunctions.js"></script>
 
